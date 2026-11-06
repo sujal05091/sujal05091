@@ -6,7 +6,7 @@
 
 <picture>
   <source media="(max-width: 768px)" srcset="./assets/ronin-hero-mobile-v2.svg">
-  <img src="./assets/ronin-hero-banner.jpg" width="100%" alt="Sujal S Kumar - Tech Samurai Digital Ronin Developer Command Center Banner" />
+  <img src="./assets/tactical-hero-banner.jpg" width="100%" alt="Sujal S Kumar - GTA 6 x Counter-Strike 2 x Call of Duty Tactical Tech Developer Command Center" />
 </picture>
 
 <br/><br/>
@@ -16,7 +16,7 @@
 <!-- ======================================================== -->
 
 <a href="https://github.com/sujal05091">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=26&pause=1000&color=FF3038&center=true&vCenter=true&width=880&lines=AI+%26+FULL-STACK+DEVELOPER;BUILDING+INTELLIGENT+APPLICATIONS;TURNING+IDEAS+INTO+PRODUCTS;INNOVATE.+ENGINEER.+DEPLOY.;WELCOME+TO+THE+DIGITAL+RONIN+DOJO" alt="Tech Samurai Dynamic Terminal HUD" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=26&pause=1000&color=FF3038&center=true&vCenter=true&width=880&lines=SUJAL+S+KUMAR+%2F%2F+TASK+FORCE+141;AI+%26+FULL-STACK+DEVELOPER;GTA+6+VICE+CITY+HEIST+ENGINEER;CS2+SITE-A+DEFUSAL+SPECIALIST;BUILD+WITH+DISCIPLINE.+DEPLOY+WITH+PURPOSE." alt="Tech Samurai Dynamic Terminal HUD" />
 </a>
 
 <br/><br/>
