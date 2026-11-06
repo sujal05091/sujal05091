@@ -88,7 +88,7 @@
   <polygon points="888,428 864,428 888,404" fill="#FF3038" />
 
   <!-- ======================================================== -->
-  <!-- CARD 1: TOP LEFT - RONIN METRICS (STATS & RANK)           -->
+  <!-- CARD 1: TOP LEFT - WARZONE METRICS (STATS & RANK)           -->
   <!-- ======================================================== -->
   <g transform="translate(30, 30)">
     <rect width="405" height="180" rx="6" fill="#0A0D12" stroke="#222834" stroke-width="1" />

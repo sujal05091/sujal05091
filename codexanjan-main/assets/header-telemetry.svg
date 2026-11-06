@@ -56,7 +56,7 @@
 
   <g transform="translate(105, 30)">
     <text x="0" y="0" font-family="'Courier New', Consolas, monospace" font-size="11" font-weight="700" fill="#787F89" letter-spacing="2">TELEMETRY &amp; CODE ACTIVITY // ANALYTICAL SERVICES</text>
-    <text x="0" y="24" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="#F4F4F2" letter-spacing="3">RONIN TELEMETRY // MAINFRAME METRICS</text>
+    <text x="0" y="24" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="#F4F4F2" letter-spacing="3">WARZONE TELEMETRY // MAINFRAME METRICS</text>
   </g>
 
   <g transform="translate(845, 34)" class="crest-pulse08">

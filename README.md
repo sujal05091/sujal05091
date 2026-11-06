@@ -259,7 +259,7 @@
 <!-- 05 // COMBAT PATROL // 52-WEEK ACTIVITY               -->
 <!-- ======================================================== -->
 
-<img src="./assets/header-contributions.svg" width="100%" alt="Section 05 - Contribution Patrol // Ronin Cadence" />
+<img src="./assets/header-contributions.svg" width="100%" alt="Section 05 - Combat Patrol // 52-Week Activity" />
 
 <br/><br/>
 
@@ -287,7 +287,7 @@
 
 <p><em>Operative milestones scheduled across the 2026 tactical deployment roadmap:</em></p>
 
-- [x] 🚀 **Initialize Ronin Telemetry HUD**: Deploy interactive mainframe profile &amp; real-time analytics.
+- [x] 🚀 **Deploy Tactical Telemetry HUD**: Deploy interactive mainframe profile &amp; real-time analytics.
 - [x] 🏆 **IEEE YESIST12 2026 Selection**: Advance to the global finals in Jakarta, Indonesia.
 - [x] 🥈 **National Hackathon Podium**: Secure 2nd Runner Up at MIT Mysore &amp; HackMitten 2.0.
 - [ ] 🤖 **Deploy End-to-End Agentic SaaS**: Architect and scale a multi-tenant applied AI product with RAG &amp; vector search.
@@ -304,14 +304,14 @@
 <br/><br/>
 
 <!-- ======================================================== -->
-<!-- 07 // TROPHY ROOM // SAMURAI ACCOLADES                   -->
+<!-- 07 // TROPHY ROOM // SPECIAL FORCES ACCOLADES                   -->
 <!-- ======================================================== -->
 
-<img src="./assets/header-trophy-room.svg" width="100%" alt="Section 07 - Trophy Room // Samurai Accolades" />
+<img src="./assets/header-trophy-room.svg" width="100%" alt="Section 07 - Trophy Room // Special Forces Accolades" />
 
 <br/><br/>
 
-<img src="./assets/samurai-trophy-room.svg" width="100%" alt="Samurai Trophy Accolades - Stars, Commits, Followers, Repos, Issues, PRs, Reviews, Experience" />
+<img src="./assets/samurai-trophy-room.svg" width="100%" alt="Tactical Special Forces Accolades - Stars, Commits, Followers, Repos, Issues, PRs, Reviews, Experience" />
 
 <br/><br/>
 
@@ -375,7 +375,7 @@
 
 <br/><br/>
 
-<img src="./assets/samurai-telemetry-grid.svg" width="100%" alt="Ronin Telemetry Grid - Metrics, Streak, and Top Languages" />
+<img src="./assets/samurai-telemetry-grid.svg" width="100%" alt="Tactical Telemetry Grid - Metrics, Streak, and Top Languages" />
 
 <br/><br/>
 
@@ -441,7 +441,7 @@
 
 <br/><br/>
 
-<img src="./assets/terminal-contact.svg" width="100%" alt="Ronin Command Terminal Contact Interface" />
+<img src="./assets/terminal-contact.svg" width="100%" alt="Tactical Command Terminal Contact Interface" />
 
 <br/><br/>
 

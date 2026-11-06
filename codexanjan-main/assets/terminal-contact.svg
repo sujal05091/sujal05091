@@ -28,7 +28,7 @@
     <circle cx="0" cy="0" r="4" fill="#FF3038" />
     <circle cx="14" cy="0" r="4" fill="#F4C95D" />
     <circle cx="28" cy="0" r="4" fill="#42FF9E" />
-    <text x="50" y="4" font-family="'Courier New', Consolas, monospace" font-size="12" font-weight="700" fill="#A8ADB7" letter-spacing="2">RONIN TERMINAL // SECURE CHANNEL [SUJAL@DOJO ~]</text>
+    <text x="50" y="4" font-family="'Courier New', Consolas, monospace" font-size="12" font-weight="700" fill="#A8ADB7" letter-spacing="2">TASK FORCE 141 TERMINAL // SECURE CHANNEL [SUJAL@TF141 ~]</text>
     <line x1="0" y1="16" x2="740" y2="16" stroke="#171B21" stroke-width="1" />
   </g>
 
