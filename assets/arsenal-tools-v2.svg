@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 32" fill="none">
+
+  <defs>
+    <linearGradient id="pillGradRed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF3038" />
+      <stop offset="100%" stop-color="#FF474E" />
+    </linearGradient>
+  </defs>
+  <g font-family="system-ui, -apple-system, 'SF Mono', 'Courier New', monospace" font-size="11" font-weight="900" letter-spacing="0.8">
+
+    <!-- Git -->
+    <g transform="translate(0, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#F05032" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="900">GIT</text>
+      <rect x="33" y="0" width="50" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="58" y="19" text-anchor="middle" fill="#050608">GIT</text>
+    </g>
+    <!-- GitHub -->
+    <g transform="translate(94, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900">GH</text>
+      <rect x="33" y="0" width="75" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="70.5" y="19" text-anchor="middle" fill="#050608">GITHUB</text>
+    </g>
+    <!-- Docker -->
+    <g transform="translate(213, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#2496ED" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900">DK</text>
+      <rect x="33" y="0" width="75" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="70.5" y="19" text-anchor="middle" fill="#050608">DOCKER</text>
+    </g>
+    <!-- Postman -->
+    <g transform="translate(332, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#FF6C37" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900">PM</text>
+      <rect x="33" y="0" width="83.5" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="74.75" y="19" text-anchor="middle" fill="#050608">POSTMAN</text>
+    </g>
+    <!-- Linux -->
+    <g transform="translate(459.5, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#FCC624" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900">LX</text>
+      <rect x="33" y="0" width="66.5" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="66.25" y="19" text-anchor="middle" fill="#050608">LINUX</text>
+    </g>
+    <!-- Figma -->
+    <g transform="translate(570, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#F24E1E" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900">FG</text>
+      <rect x="33" y="0" width="66.5" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="66.25" y="19" text-anchor="middle" fill="#050608">FIGMA</text>
+    </g>
+    <!-- VS Code -->
+    <g transform="translate(680.5, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#007ACC" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900">VS</text>
+      <rect x="33" y="0" width="83.5" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="74.75" y="19" text-anchor="middle" fill="#050608">VS CODE</text>
+    </g>
+  </g>
+</svg>

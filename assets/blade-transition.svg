@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 60" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="slashFlare" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF3038" stop-opacity="0" />
+      <stop offset="35%" stop-color="#FF3038" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1" />
+      <stop offset="65%" stop-color="#55E6FF" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00A3FF" stop-opacity="0" />
+    </linearGradient>
+    <filter id="transGlow" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @keyframes cutFlash {
+        0% { transform: scaleX(0.1); opacity: 0; }
+        30% { transform: scaleX(1); opacity: 1; filter: drop-shadow(0 0 12px #FF3038); }
+        70% { opacity: 0.9; }
+        100% { transform: scaleX(1.05); opacity: 0.3; }
+      }
+      @keyframes particleFloat {
+        0% { transform: translate(0, 0); opacity: 1; }
+        100% { transform: translate(30px, -20px); opacity: 0; }
+      }
+      .kinetic-pulse {
+        transform-origin: 500px 30px;
+        animation: cutFlash 3.5s ease-in-out infinite alternate;
+      }
+      .particle-ember {
+        animation: particleFloat 2.5s infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Ambience -->
+  <rect width="1000" height="60" fill="#080A0D" opacity="0.4" />
+
+  <!-- Cyber Horizon Guide Rails -->
+  <line x1="0" y1="30" x2="420" y2="30" stroke="#171B21" stroke-width="1.5" />
+  <line x1="580" y1="30" x2="1000" y2="30" stroke="#171B21" stroke-width="1.5" />
+
+  <!-- Center Hexagonal Pulse Node -->
+  <polygon points="430,20 570,20 585,30 570,40 430,40 415,30" fill="#101318" stroke="#1F2633" stroke-width="1.2" />
+
+  <!-- High Voltage Kinetic Pulse Strike -->
+  <line x1="100" y1="30" x2="900" y2="30" stroke="url(#slashFlare)" stroke-width="3" stroke-linecap="round" class="kinetic-pulse" filter="url(#transGlow)" />
+  <line x1="250" y1="30" x2="750" y2="30" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" class="kinetic-pulse" />
+
+  <!-- Embers and Sparks -->
+  <circle cx="480" cy="22" r="2" fill="#FF3038" class="particle-ember" />
+  <circle cx="510" cy="38" r="1.5" fill="#FF8A8A" class="particle-ember" style="animation-delay: 0.6s;" />
+  <circle cx="535" cy="18" r="2.5" fill="#55E6FF" class="particle-ember" style="animation-delay: 1.2s;" />
+  <circle cx="460" cy="36" r="1.5" fill="#FFF" class="particle-ember" style="animation-delay: 1.8s;" />
+
+  <!-- Center HUD Insignia Diamond -->
+  <g transform="translate(500, 30)">
+    <polygon points="0,-10 10,0 0,10 -10,0" fill="#0A0C10" stroke="#FF3038" stroke-width="1.5" />
+    <circle cx="0" cy="0" r="2.5" fill="#55E6FF" />
+  </g>
+</svg>

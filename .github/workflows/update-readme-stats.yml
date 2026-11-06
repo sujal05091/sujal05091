@@ -1,0 +1,139 @@
+name: Update Readme Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Run daily at midnight UTC
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Refresh System Telemetry Metrics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: sujal05091
+        run: |
+          echo "Syncing GitHub telemetry and activity stream for $USERNAME..."
+          node -e '
+            const https = require("https");
+            const fs = require("fs");
+
+            const token = process.env.GITHUB_TOKEN;
+            const username = process.env.USERNAME || "sujal05091";
+            if (!token) {
+              console.log("No token provided, skipping live sync.");
+              process.exit(0);
+            }
+
+            const query = JSON.stringify({
+              query: `
+                query userInfo($login: String!) {
+                  user(login: $login) {
+                    pullRequests(first: 1) { totalCount }
+                    issues(first: 1) { totalCount }
+                    repositoriesContributedTo(first: 1) { totalCount }
+                    repositories(first: 100, ownerAffiliations: OWNER) {
+                      nodes { stargazerCount }
+                    }
+                    contributionsCollection {
+                      totalCommitContributions
+                    }
+                  }
+                }
+              `,
+              variables: { login: username }
+            });
+
+            const req = https.request({
+              hostname: "api.github.com",
+              path: "/graphql",
+              method: "POST",
+              headers: {
+                "User-Agent": "Node.js",
+                "Authorization": `Bearer ${token}`,
+                "Content-Type": "application/json",
+                "Content-Length": query.length
+              }
+            }, (res) => {
+              let data = "";
+              res.on("data", chunk => data += chunk);
+              res.on("end", () => {
+                try {
+                  const json = JSON.parse(data);
+                  if (json.data && json.data.user) {
+                    const u = json.data.user;
+                    const stars = u.repositories.nodes.reduce((acc, r) => acc + r.stargazerCount, 0);
+                    const commits = u.contributionsCollection.totalCommitContributions;
+                    const prs = u.pullRequests.totalCount;
+                    const issues = u.issues.totalCount;
+                    const contribs = u.repositoriesContributedTo.totalCount;
+
+                    console.log(`Live telemetry fetched: Stars=${stars}, Commits=${commits}, PRs=${prs}, Issues=${issues}`);
+
+                    const statsPath = "assets/live-github-stats.svg";
+                    if (fs.existsSync(statsPath)) {
+                      let c = fs.readFileSync(statsPath, "utf8");
+                      c = c.replace(/(Total Stars Earned:<\/text>\s*<text[^>]*>)\d+(<\/text>)/, `$1${stars}$2`);
+                      c = c.replace(/(Total Commits \(2026\):<\/text>\s*<text[^>]*>)\d+(<\/text>)/, `$1${commits}$2`);
+                      c = c.replace(/(Total PRs:<\/text>\s*<text[^>]*>)\d+(<\/text>)/, `$1${prs}$2`);
+                      c = c.replace(/(Total Issues:<\/text>\s*<text[^>]*>)\d+(<\/text>)/, `$1${issues}$2`);
+                      c = c.replace(/(Contributed to \(last year\):<\/text>\s*<text[^>]*>)\d+(<\/text>)/, `$1${contribs}$2`);
+                      fs.writeFileSync(statsPath, c);
+                      console.log("Updated " + statsPath);
+                    }
+
+                    const telemetryPath = "assets/samurai-telemetry-grid.svg";
+                    if (fs.existsSync(telemetryPath)) {
+                      let c = fs.readFileSync(telemetryPath, "utf8");
+                      c = c.replace(/(Total Stars Earned:<\/text>\s*<text[^>]*>)\d+(<\/text>)/, `$1${stars}$2`);
+                      c = c.replace(/(Total Commits \(2026\):<\/text>\s*<text[^>]*>)\d+(<\/text>)/, `$1${commits}$2`);
+                      c = c.replace(/(Total PRs:<\/text>\s*<text[^>]*>)\d+(<\/text>)/, `$1${prs}$2`);
+                      c = c.replace(/(Total Issues:<\/text>\s*<text[^>]*>)\d+(<\/text>)/, `$1${issues}$2`);
+                      c = c.replace(/(Contributed to \(yr\):<\/text>\s*<text[^>]*>)\d+(<\/text>)/, `$1${contribs}$2`);
+                      fs.writeFileSync(telemetryPath, c);
+                      console.log("Updated " + telemetryPath);
+                    }
+
+                    const contribPath = "assets/contribution-grid.svg";
+                    if (fs.existsSync(contribPath)) {
+                      let c = fs.readFileSync(contribPath, "utf8");
+                      c = c.replace(/\d+( LETHAL COMMITS \/\/ COMBAT CADENCE)/, `${commits}$1`);
+                      fs.writeFileSync(contribPath, c);
+                      console.log("Updated " + contribPath);
+                    }
+                  } else {
+                    console.log("API response:", data);
+                  }
+                } catch (e) {
+                  console.error("Parse error:", e.message);
+                }
+              });
+            });
+            req.on("error", (e) => console.error("HTTP error:", e.message));
+            req.write(query);
+            req.end();
+          '
+
+      - name: Commit & Push Telemetry Updates
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          if git diff --staged --quiet; then
+            echo "No telemetry changes detected."
+          else
+            git commit -m "chore(telemetry): update tactical telemetry & activity stream [skip ci]"
+            git push
+          fi

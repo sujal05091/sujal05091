@@ -1,0 +1,12 @@
+{
+  "name": "sujal-tech-samurai",
+  "version": "2.0.0",
+  "description": "Tech Samurai // Digital Ronin GitHub Profile Command Center for Sujal S Kumar (@sujal05091)",
+  "scripts": {
+    "test": "node scripts/validate-assets.js",
+    "sync": "node scripts/sync-github-stats.js",
+    "validate": "node scripts/validate-assets.js"
+  },
+  "author": "Sujal S Kumar (@sujal05091)",
+  "license": "MIT"
+}

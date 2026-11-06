@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 946 32" fill="none">
+
+  <defs>
+    <linearGradient id="pillGradRed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF3038" />
+      <stop offset="100%" stop-color="#FF474E" />
+    </linearGradient>
+  </defs>
+  <g font-family="system-ui, -apple-system, 'SF Mono', 'Courier New', monospace" font-size="11" font-weight="900" letter-spacing="0.8">
+
+    <!-- Python -->
+    <g transform="translate(0, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#3776AB" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900">PY</text>
+      <rect x="33" y="0" width="75" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="70.5" y="19" text-anchor="middle" fill="#050608">PYTHON</text>
+    </g>
+    <!-- Java -->
+    <g transform="translate(119, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#FF5722" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900">JV</text>
+      <rect x="33" y="0" width="58" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="62" y="19" text-anchor="middle" fill="#050608">JAVA</text>
+    </g>
+    <!-- C -->
+    <g transform="translate(221, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#659AD2" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="900">C</text>
+      <rect x="33" y="0" width="50" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="58" y="19" text-anchor="middle" fill="#050608">C</text>
+    </g>
+    <!-- Kotlin -->
+    <g transform="translate(315, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#7F52FF" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900">KT</text>
+      <rect x="33" y="0" width="75" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="70.5" y="19" text-anchor="middle" fill="#050608">KOTLIN</text>
+    </g>
+    <!-- Dart -->
+    <g transform="translate(434, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#0175C2" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900">DT</text>
+      <rect x="33" y="0" width="58" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="62" y="19" text-anchor="middle" fill="#050608">DART</text>
+    </g>
+    <!-- JavaScript -->
+    <g transform="translate(536, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#FFD600" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900">JS</text>
+      <rect x="33" y="0" width="109" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="87.5" y="19" text-anchor="middle" fill="#050608">JAVASCRIPT</text>
+    </g>
+    <!-- TypeScript -->
+    <g transform="translate(689, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#3178C6" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900">TS</text>
+      <rect x="33" y="0" width="109" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="87.5" y="19" text-anchor="middle" fill="#050608">TYPESCRIPT</text>
+    </g>
+    <!-- SQL -->
+    <g transform="translate(842, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#4479A1" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="900">SQL</text>
+      <rect x="33" y="0" width="50" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="58" y="19" text-anchor="middle" fill="#050608">SQL</text>
+    </g>
+  </g>
+</svg>

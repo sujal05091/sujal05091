@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 32" fill="none">
+
+  <defs>
+    <linearGradient id="pillGradRed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF3038" />
+      <stop offset="100%" stop-color="#FF474E" />
+    </linearGradient>
+  </defs>
+  <g font-family="system-ui, -apple-system, 'SF Mono', 'Courier New', monospace" font-size="11" font-weight="900" letter-spacing="0.8">
+
+    <!-- React -->
+    <g transform="translate(0, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#61DAFB" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="900">⚛</text>
+      <rect x="33" y="0" width="66.5" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="66.25" y="19" text-anchor="middle" fill="#050608">REACT</text>
+    </g>
+    <!-- Next.js -->
+    <g transform="translate(110.5, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="900">N</text>
+      <rect x="33" y="0" width="83.5" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="74.75" y="19" text-anchor="middle" fill="#050608">NEXT.JS</text>
+    </g>
+    <!-- Vite -->
+    <g transform="translate(238, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#646CFF" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="900">⚡</text>
+      <rect x="33" y="0" width="58" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="62" y="19" text-anchor="middle" fill="#050608">VITE</text>
+    </g>
+    <!-- HTML5 -->
+    <g transform="translate(340, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#E34F26" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900">H5</text>
+      <rect x="33" y="0" width="66.5" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="66.25" y="19" text-anchor="middle" fill="#050608">HTML5</text>
+    </g>
+    <!-- CSS3 -->
+    <g transform="translate(450.5, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#1572B6" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900">C3</text>
+      <rect x="33" y="0" width="58" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="62" y="19" text-anchor="middle" fill="#050608">CSS3</text>
+    </g>
+    <!-- Tailwind CSS -->
+    <g transform="translate(552.5, 1)">
+      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
+      <text x="15" y="20" text-anchor="middle" fill="#06B6D4" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900">TW</text>
+      <rect x="33" y="0" width="126" height="30" rx="3" fill="url(#pillGradRed)" />
+      <text x="96" y="19" text-anchor="middle" fill="#050608">TAILWIND CSS</text>
+    </g>
+  </g>
+</svg>

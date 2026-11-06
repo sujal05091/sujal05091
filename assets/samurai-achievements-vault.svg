@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 340" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="vaultBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080A0E" />
+      <stop offset="50%" stop-color="#050608" />
+      <stop offset="100%" stop-color="#0F121A" />
+    </linearGradient>
+
+    <linearGradient id="goldAccBadge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="100%" stop-color="#FFA500" />
+    </linearGradient>
+
+    <linearGradient id="redAccBadge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF3038" />
+      <stop offset="100%" stop-color="#FF5722" />
+    </linearGradient>
+
+    <linearGradient id="cyanAccBadge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#55E6FF" />
+      <stop offset="100%" stop-color="#00A3C4" />
+    </linearGradient>
+
+    <filter id="badgeGlowRed" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="badgeGlowGold" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @keyframes badgePulse {
+        0%, 100% { opacity: 0.85; }
+        50% { opacity: 1; filter: drop-shadow(0 0 6px #FF3038); }
+      }
+      .trophy-shimmer {
+        animation: badgePulse 3s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <rect width="920" height="340" rx="10" fill="url(#vaultBg)" stroke="#171C25" stroke-width="1.6" />
+  
+  <!-- Outer Corner Accents -->
+  <polygon points="12,12 36,12 12,36" fill="#FF3038" />
+  <polygon points="908,12 884,12 908,36" fill="#FF3038" />
+  <polygon points="12,328 36,328 12,304" fill="#FF3038" />
+  <polygon points="908,328 884,328 908,304" fill="#FF3038" />
+
+  <!-- Section Header Inside Card -->
+  <g transform="translate(30, 32)" font-family="'Courier New', Consolas, monospace">
+    <polygon points="0,0 8,0 4,8" fill="#FFD700" />
+    <text x="16" y="6" font-size="11" font-weight="900" fill="#FFD700" letter-spacing="2">HONORS &amp; VERIFIED CERTIFICATIONS // RONIN TROPHY VAULT</text>
+    <text x="860" y="6" text-anchor="end" font-size="9" font-weight="800" fill="#55E6FF" letter-spacing="1">HALL OF MERIT 2026</text>
+    <line x1="0" y1="16" x2="860" y2="16" stroke="#1C2330" stroke-width="1.2" />
+  </g>
+
+  <!-- 6 Feature Cards (3 Columns x 2 Rows) -->
+  <!-- ROW 1 -->
+  <!-- Card 1: IEEE YESIST12 2026 -->
+  <g transform="translate(30, 68)">
+    <rect width="270" height="110" rx="6" fill="#0C1018" stroke="#FFD700" stroke-width="1.2" filter="url(#badgeGlowGold)" />
+    <rect width="270" height="110" rx="6" fill="none" stroke="#222834" stroke-width="1" />
+    <circle cx="22" cy="22" r="10" fill="#1C1808" stroke="#FFD700" stroke-width="1" />
+    <text x="22" y="26" text-anchor="middle" font-size="12">🏆</text>
+    <text x="40" y="18" font-family="'Orbitron', sans-serif" font-size="10" font-weight="900" fill="#FFD700" letter-spacing="0.5">IEEE YESIST12 2026</text>
+    <text x="40" y="30" font-family="'Courier New', monospace" font-size="8" font-weight="700" fill="#42FF9E">GLOBAL FINALIST</text>
+    <line x1="12" y1="42" x2="258" y2="42" stroke="#1E2838" stroke-width="0.8" />
+    <text x="12" y="60" font-family="'Courier New', monospace" font-size="8.5" fill="#C5CAD4">International Stage: Jakarta, ID</text>
+    <text x="12" y="74" font-family="'Courier New', monospace" font-size="8.5" fill="#A8ADB7">Finalist out of hundreds of entries</text>
+    <rect x="12" y="86" width="105" height="16" rx="2" fill="#141C2B" />
+    <text x="64" y="97" text-anchor="middle" font-family="'Courier New', monospace" font-size="7.5" font-weight="800" fill="#55E6FF">GLOBAL FINALS</text>
+  </g>
+
+  <!-- Card 2: MIT Mysore Hackathon -->
+  <g transform="translate(325, 68)">
+    <rect width="270" height="110" rx="6" fill="#0C1018" stroke="#FF3038" stroke-width="1.2" filter="url(#badgeGlowRed)" />
+    <rect width="270" height="110" rx="6" fill="none" stroke="#222834" stroke-width="1" />
+    <circle cx="22" cy="22" r="10" fill="#200A0D" stroke="#FF3038" stroke-width="1" />
+    <text x="22" y="26" text-anchor="middle" font-size="12">⚔️</text>
+    <text x="40" y="18" font-family="'Orbitron', sans-serif" font-size="10" font-weight="900" fill="#F4F4F2" letter-spacing="0.5">MIT MYSORE HACKATHON</text>
+    <text x="40" y="30" font-family="'Courier New', monospace" font-size="8" font-weight="700" fill="#FF3038">2ND RUNNER UP // NATIONAL</text>
+    <line x1="12" y1="42" x2="258" y2="42" stroke="#1E2838" stroke-width="0.8" />
+    <text x="12" y="60" font-family="'Courier New', monospace" font-size="8.5" fill="#C5CAD4">National-level tech competition</text>
+    <text x="12" y="74" font-family="'Courier New', monospace" font-size="8.5" fill="#A8ADB7">HackMitten 2.0 • 3rd Prize Overall</text>
+    <rect x="12" y="86" width="115" height="16" rx="2" fill="#220D12" />
+    <text x="69" y="97" text-anchor="middle" font-family="'Courier New', monospace" font-size="7.5" font-weight="800" fill="#FF5E65">PODIUM FINISHER</text>
+  </g>
+
+  <!-- Card 3: COMEDKARES & REVA Honors -->
+  <g transform="translate(620, 68)">
+    <rect width="270" height="110" rx="6" fill="#0C1018" stroke="#55E6FF" stroke-width="1" />
+    <rect width="270" height="110" rx="6" fill="none" stroke="#222834" stroke-width="1" />
+    <circle cx="22" cy="22" r="10" fill="#0A1822" stroke="#55E6FF" stroke-width="1" />
+    <text x="22" y="26" text-anchor="middle" font-size="12">🎖️</text>
+    <text x="40" y="18" font-family="'Orbitron', sans-serif" font-size="10" font-weight="900" fill="#F4F4F2" letter-spacing="0.5">COMEDKARES &amp; REVA</text>
+    <text x="40" y="30" font-family="'Courier New', monospace" font-size="8" font-weight="700" fill="#55E6FF">INNOVATION &amp; DESIGN</text>
+    <line x1="12" y1="42" x2="258" y2="42" stroke="#1E2838" stroke-width="0.8" />
+    <text x="12" y="60" font-family="'Courier New', monospace" font-size="8.5" fill="#C5CAD4">COMEDKARES: 2nd Runner Up</text>
+    <text x="12" y="74" font-family="'Courier New', monospace" font-size="8.5" fill="#A8ADB7">REVA Univ: Best Animation Award</text>
+    <rect x="12" y="86" width="120" height="16" rx="2" fill="#0C1924" />
+    <text x="72" y="97" text-anchor="middle" font-family="'Courier New', monospace" font-size="7.5" font-weight="800" fill="#55E6FF">EXCELLENCE AWARD</text>
+  </g>
+
+  <!-- ROW 2: CERTIFICATIONS -->
+  <!-- Card 4: Azure AI Code-First Agent -->
+  <g transform="translate(30, 198)">
+    <rect width="270" height="110" rx="6" fill="#0C1018" stroke="#1E2838" stroke-width="1.2" />
+    <rect width="270" height="110" rx="6" fill="none" stroke="#222834" stroke-width="1" />
+    <circle cx="22" cy="22" r="10" fill="#0C1625" stroke="#0078D4" stroke-width="1" />
+    <text x="22" y="26" text-anchor="middle" font-size="12">🤖</text>
+    <text x="40" y="18" font-family="'Orbitron', sans-serif" font-size="10" font-weight="900" fill="#F4F4F2" letter-spacing="0.5">AZURE AI AGENTS</text>
+    <text x="40" y="30" font-family="'Courier New', monospace" font-size="8" font-weight="700" fill="#0078D4">MICROSOFT AZURE</text>
+    <line x1="12" y1="42" x2="258" y2="42" stroke="#1E2838" stroke-width="0.8" />
+    <text x="12" y="60" font-family="'Courier New', monospace" font-size="8.5" fill="#C5CAD4">Code-First Agent Architectures</text>
+    <text x="12" y="74" font-family="'Courier New', monospace" font-size="8.5" fill="#A8ADB7">LLM Orchestration &amp; RAG Systems</text>
+    <rect x="12" y="86" width="135" height="16" rx="2" fill="#0E1B28" />
+    <text x="79" y="97" text-anchor="middle" font-family="'Courier New', monospace" font-size="7.5" font-weight="800" fill="#60A5FA">MICROSOFT CERTIFIED</text>
+  </g>
+
+  <!-- Card 5: NPTEL Elite IoT -->
+  <g transform="translate(325, 198)">
+    <rect width="270" height="110" rx="6" fill="#0C1018" stroke="#1E2838" stroke-width="1.2" />
+    <rect width="270" height="110" rx="6" fill="none" stroke="#222834" stroke-width="1" />
+    <circle cx="22" cy="22" r="10" fill="#1C1808" stroke="#FF9900" stroke-width="1" />
+    <text x="22" y="26" text-anchor="middle" font-size="12">📡</text>
+    <text x="40" y="18" font-family="'Orbitron', sans-serif" font-size="10" font-weight="900" fill="#F4F4F2" letter-spacing="0.5">NPTEL ELITE // IOT</text>
+    <text x="40" y="30" font-family="'Courier New', monospace" font-size="8" font-weight="700" fill="#FFB703">IIT / MHRD INDIA</text>
+    <line x1="12" y1="42" x2="258" y2="42" stroke="#1E2838" stroke-width="0.8" />
+    <text x="12" y="60" font-family="'Courier New', monospace" font-size="8.5" fill="#C5CAD4">Internet of Things Engineering</text>
+    <text x="12" y="74" font-family="'Courier New', monospace" font-size="8.5" fill="#A8ADB7">Elite Certification Honor</text>
+    <rect x="12" y="86" width="115" height="16" rx="2" fill="#1F1708" />
+    <text x="69" y="97" text-anchor="middle" font-family="'Courier New', monospace" font-size="7.5" font-weight="800" fill="#FBBF24">NPTEL ELITE GRADE</text>
+  </g>
+
+  <!-- Card 6: Cybersecurity & AI Bootcamp -->
+  <g transform="translate(620, 198)">
+    <rect width="270" height="110" rx="6" fill="#0C1018" stroke="#1E2838" stroke-width="1.2" />
+    <rect width="270" height="110" rx="6" fill="none" stroke="#222834" stroke-width="1" />
+    <circle cx="22" cy="22" r="10" fill="#101D14" stroke="#10B981" stroke-width="1" />
+    <text x="22" y="26" text-anchor="middle" font-size="12">🛡️</text>
+    <text x="40" y="18" font-family="'Orbitron', sans-serif" font-size="10" font-weight="900" fill="#F4F4F2" letter-spacing="0.5">CYBER SECURITY BOOTCAMP</text>
+    <text x="40" y="30" font-family="'Courier New', monospace" font-size="8" font-weight="700" fill="#10B981">CYSECK // NITK SURATHKAL</text>
+    <line x1="12" y1="42" x2="258" y2="42" stroke="#1E2838" stroke-width="0.8" />
+    <text x="12" y="60" font-family="'Courier New', monospace" font-size="8.5" fill="#C5CAD4">Security Architecture &amp; Audit</text>
+    <text x="12" y="74" font-family="'Courier New', monospace" font-size="8.5" fill="#A8ADB7">IBM SkillsBuild AI Literacy</text>
+    <rect x="12" y="86" width="125" height="16" rx="2" fill="#0E1C14" />
+    <text x="74" y="97" text-anchor="middle" font-family="'Courier New', monospace" font-size="7.5" font-weight="800" fill="#34D399">CYSECK CERTIFIED</text>
+  </g>
+</svg>
