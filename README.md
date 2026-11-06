@@ -4,10 +4,7 @@
 <!-- 00 // HERO BANNER & IDENTITY                              -->
 <!-- ======================================================== -->
 
-<picture>
-  <source media="(max-width: 768px)" srcset="./assets/ronin-hero-mobile-v2.svg">
-  <img src="./assets/tactical-hero-banner.jpg" width="100%" alt="Sujal S Kumar - GTA 6 x Counter-Strike 2 x Call of Duty Tactical Tech Developer Command Center" />
-</picture>
+<img src="./assets/tactical-hero-banner.jpg" width="100%" alt="Sujal S Kumar - GTA 6 x Counter-Strike 2 x Call of Duty Tactical Tech Developer Command Center" />
 
 <br/><br/>
 
@@ -16,7 +13,7 @@
 <!-- ======================================================== -->
 
 <a href="https://github.com/sujal05091">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=26&pause=1000&color=FF3038&center=true&vCenter=true&width=880&lines=SUJAL+S+KUMAR+%2F%2F+TASK+FORCE+141;AI+%26+FULL-STACK+DEVELOPER;GTA+6+VICE+CITY+HEIST+ENGINEER;CS2+SITE-A+DEFUSAL+SPECIALIST;BUILD+WITH+DISCIPLINE.+DEPLOY+WITH+PURPOSE." alt="Tech Samurai Dynamic Terminal HUD" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=26&pause=1000&color=FF3038&center=true&vCenter=true&width=880&lines=SUJAL+S+KUMAR+%2F%2F+TASK+FORCE+141;AI+%26+FULL-STACK+DEVELOPER;GTA+6+VICE+CITY+HEIST+ENGINEER;CS2+SITE-A+DEFUSAL+SPECIALIST;BUILD+WITH+DISCIPLINE.+DEPLOY+WITH+PURPOSE." alt="Tactical Terminal Dynamic HUD" />
 </a>
 
 <br/><br/>
@@ -33,23 +30,23 @@
 
 <br/><br/>
 
-<img src="./assets/katana-divider.svg" width="100%" alt="Katana Divider" />
+<img src="./assets/tactical-divider.svg" width="100%" alt="Tactical HUD Divider" />
 
 <br/><br/>
 
 <!-- ======================================================== -->
-<!-- 01 // WARRIOR PROFILE                                    -->
+<!-- 01 // OPERATIVE DOSSIER // TASK FORCE 141                                    -->
 <!-- ======================================================== -->
 
-<img src="./assets/header-profile.svg" width="100%" alt="Section 01 - Warrior Profile Dossier" />
+<img src="./assets/header-profile.svg" width="100%" alt="Section 01 - Operative Dossier Intel" />
 
 <br/><br/>
 
-<img src="./assets/operative-dossier-v2.svg" width="100%" alt="Sujal S Kumar Operative Dossier - Core Specializations &amp; Directives" />
+<img src="./assets/tactical-dossier.jpg" width="100%" alt="Sujal S Kumar Operative Dossier - Task Force 141 Classified Intel" />
 
 <br/><br/>
 
-<img src="./assets/developer-rank.svg" width="100%" alt="Capability Topology Radar - Bushido of Code &amp; Tactical Engineering Matrix" />
+<img src="./assets/tactical-loadout-matrix.jpg" width="100%" alt="Tactical Loadout & Capability Topology Radar - COD Warzone & CS2 Architecture Matrix" />
 
 </div>
 
@@ -57,7 +54,7 @@
 
 <div align="center">
 
-<img src="./assets/katana-divider.svg" width="100%" alt="Katana Divider" />
+<img src="./assets/tactical-divider.svg" width="100%" alt="Tactical HUD Divider" />
 
 <br/><br/>
 
@@ -117,15 +114,15 @@
 
 <br/><br/>
 
-<img src="./assets/katana-divider.svg" width="100%" alt="Katana Divider" />
+<img src="./assets/tactical-divider.svg" width="100%" alt="Tactical HUD Divider" />
 
 <br/><br/>
 
 <!-- ======================================================== -->
-<!-- 03 // PROJECT DATABASE // RONIN ARCHIVES                 -->
+<!-- 03 // HEIST ARCHIVES // MISSION DATABASE                 -->
 <!-- ======================================================== -->
 
-<img src="./assets/header-project-database.svg" width="100%" alt="Section 03 - Project Database // Ronin Archives" />
+<img src="./assets/header-project-database.svg" width="100%" alt="Section 03 - Heist Archives // Mission Database" />
 
 </div>
 
@@ -238,7 +235,7 @@
 
 <div align="center">
 
-<img src="./assets/katana-divider.svg" width="100%" alt="Katana Divider" />
+<img src="./assets/tactical-divider.svg" width="100%" alt="Tactical HUD Divider" />
 
 <br/><br/>
 
@@ -254,12 +251,12 @@
 
 <br/><br/>
 
-<img src="./assets/katana-divider.svg" width="100%" alt="Katana Divider" />
+<img src="./assets/tactical-divider.svg" width="100%" alt="Tactical HUD Divider" />
 
 <br/><br/>
 
 <!-- ======================================================== -->
-<!-- 05 // CONTRIBUTION PATROL // RONIN CADENCE               -->
+<!-- 05 // COMBAT PATROL // 52-WEEK ACTIVITY               -->
 <!-- ======================================================== -->
 
 <img src="./assets/header-contributions.svg" width="100%" alt="Section 05 - Contribution Patrol // Ronin Cadence" />
@@ -274,7 +271,7 @@
 
 <br/><br/>
 
-<img src="./assets/katana-divider.svg" width="100%" alt="Katana Divider" />
+<img src="./assets/tactical-divider.svg" width="100%" alt="Tactical HUD Divider" />
 
 <br/><br/>
 
@@ -302,7 +299,7 @@
 
 <div align="center">
 
-<img src="./assets/katana-divider.svg" width="100%" alt="Katana Divider" />
+<img src="./assets/tactical-divider.svg" width="100%" alt="Tactical HUD Divider" />
 
 <br/><br/>
 
@@ -352,12 +349,12 @@
 
 <br/><br/>
 
-<img src="./assets/katana-divider.svg" width="100%" alt="Katana Divider" />
+<img src="./assets/tactical-divider.svg" width="100%" alt="Tactical HUD Divider" />
 
 <br/><br/>
 
 <!-- ======================================================== -->
-<!-- 08 // RONIN TELEMETRY // MAINFRAME METRICS               -->
+<!-- 08 // WARZONE TELEMETRY // MAINFRAME METRICS               -->
 <!-- ======================================================== -->
 
 <img src="./assets/header-telemetry.svg" width="100%" alt="Section 08 - Ronin Telemetry // Mainframe Metrics" />
@@ -394,12 +391,12 @@
 
 <br/><br/>
 
-<img src="./assets/katana-divider.svg" width="100%" alt="Katana Divider" />
+<img src="./assets/tactical-divider.svg" width="100%" alt="Tactical HUD Divider" />
 
 <br/><br/>
 
 <!-- ======================================================== -->
-<!-- 09 // RONIN COMMS // SECURE CHANNELS                     -->
+<!-- 09 // SECURE COMMS // TASK FORCE CHANNELS                     -->
 <!-- ======================================================== -->
 
 <img src="./assets/header-connect.svg" width="100%" alt="Section 09 - Ronin Comms Secure Channels" />
@@ -432,12 +429,12 @@
 
 <br/><br/>
 
-<img src="./assets/katana-divider.svg" width="100%" alt="Katana Divider" />
+<img src="./assets/tactical-divider.svg" width="100%" alt="Tactical HUD Divider" />
 
 <br/><br/>
 
 <!-- ======================================================== -->
-<!-- 10 // RONIN TERMINAL // COMMAND SHELL                    -->
+<!-- 10 // COMMAND TERMINAL // TACTICAL SHELL                    -->
 <!-- ======================================================== -->
 
 <img src="./assets/header-terminal.svg" width="100%" alt="Ronin Terminal Command Shell Header" />
@@ -459,7 +456,7 @@
 <br/><br/>
 
 <!-- ======================================================== -->
-<!-- MONOLITHIC RONIN FOOTER                                  -->
+<!-- MONOLITHIC TACTICAL FOOTER                                  -->
 <!-- ======================================================== -->
 
 <img src="./assets/ronin-footer.svg" width="100%" alt="Sujal S Kumar Monolithic Tech Samurai Signature Footer" />
@@ -467,7 +464,7 @@
 <br/><br/>
 
 ```txt
-[ TRANSMISSION END // SUJAL S KUMAR // RONIN PROTOCOL 0x534B // ALL SYSTEMS ARMED ]
+[ TRANSMISSION END // SUJAL S KUMAR // TF-141 PROTOCOL 0x534B // ALL SYSTEMS ARMED ]
 ```
 
 </div>

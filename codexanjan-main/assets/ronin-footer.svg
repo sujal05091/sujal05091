@@ -93,6 +93,6 @@
   <!-- Bottom Telemetry (Right) -->
   <g transform="translate(1000, 275)" font-family="'Courier New', Consolas, monospace" font-size="10" fill="#787F89">
     <circle cx="-10" cy="-4" r="3.5" fill="#42FF9E" />
-    <text x="0" y="0" fill="#42FF9E" font-weight="700">RONIN DOJO // ONLINE</text>
+    <text x="0" y="0" fill="#42FF9E" font-weight="700">TASK FORCE 141 // ONLINE</text>
   </g>
 </svg>

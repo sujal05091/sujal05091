@@ -58,8 +58,8 @@
 
   <!-- Main Title & Section Hierarchy -->
   <g transform="translate(105, 30)">
-    <text x="0" y="0" font-family="'Courier New', Consolas, monospace" font-size="11" font-weight="700" fill="#787F89" letter-spacing="2">WARRIOR PROFILE // DOSSIER</text>
-    <text x="0" y="24" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="#F4F4F2" letter-spacing="3">THE DIGITAL RONIN</text>
+    <text x="0" y="0" font-family="'Courier New', Consolas, monospace" font-size="11" font-weight="700" fill="#787F89" letter-spacing="2">OPERATIVE DOSSIER // INTEL</text>
+    <text x="0" y="24" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" fill="#F4F4F2" letter-spacing="3">TASK FORCE 141 // OPERATIVE</text>
   </g>
 
   <!-- Small CODEXANJAN Crest (Right) -->
