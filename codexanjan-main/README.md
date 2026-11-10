@@ -4,7 +4,7 @@
 <!-- 00 // HERO BANNER & IDENTITY                              -->
 <!-- ======================================================== -->
 
-<img src="./assets/tactical-hero-banner.jpg" width="100%" alt="Sujal S Kumar - GTA 6 x Counter-Strike 2 x Call of Duty Tactical Tech Developer Command Center" />
+<img src="./assets/tactical-hero-banner.jpg" width="100%" alt="Sujal S Kumar - Comic-Style AI Developer Action Poster Hero Banner" />
 
 <br/><br/>
 
