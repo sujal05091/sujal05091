@@ -59,3 +59,4 @@ for (const dir of assetDirs) {
 }
 
 console.log('\nAll assets deployed successfully.');
+
