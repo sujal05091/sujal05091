@@ -38,6 +38,8 @@ function validateProfile() {
     "ronin-footer.svg",
     "katana-divider.svg",
     "profile.png",
+    "tactical-gunman.jpg",
+    "tactical-hero-banner.jpg",
     "arsenal-languages-v3.svg",
     "arsenal-frameworks-v3.svg",
     "arsenal-backend-v3.svg",

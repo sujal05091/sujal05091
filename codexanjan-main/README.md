@@ -42,7 +42,17 @@
 
 <br/><br/>
 
-<img src="./assets/tactical-dossier.jpg" width="100%" alt="Sujal S Kumar Operative Dossier - Task Force 141 Classified Intel" />
+<table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="38%" align="center" valign="middle">
+      <img src="./assets/tactical-gunman.jpg" width="100%" alt="Sujal S Kumar - Tactical Operative Gunman // Task Force 141" />
+    </td>
+    <td width="3%"></td>
+    <td width="59%" align="center" valign="middle">
+      <img src="./assets/tactical-dossier.jpg" width="100%" alt="Sujal S Kumar Operative Dossier - Task Force 141 Classified Intel" />
+    </td>
+  </tr>
+</table>
 
 <br/><br/>
 
