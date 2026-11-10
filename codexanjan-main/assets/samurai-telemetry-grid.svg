@@ -95,34 +95,34 @@
     <rect width="405" height="180" rx="6" fill="none" stroke="#FF3038" stroke-width="1.5" class="card-edge-laser" />
 
     <circle cx="20" cy="22" r="3.5" fill="#42FF9E" class="telemetry-led" />
-    <text x="32" y="26" font-family="'Orbitron', sans-serif" font-size="11" font-weight="800" fill="#FF3038" letter-spacing="1">RONIN METRICS</text>
+    <text x="32" y="26" font-family="'Orbitron', sans-serif" font-size="11" font-weight="800" fill="#FFB800" letter-spacing="1">WARZONE METRICS // SUJAL S KUMAR</text>
 
     <!-- Stats List -->
     <g transform="translate(20, 52)" font-family="'Courier New', Consolas, monospace" font-size="11">
       <g transform="translate(0, 0)">
         <text x="0" y="0" fill="#FFD700">★</text>
         <text x="18" y="0" fill="#A8ADB7">Total Stars Earned:</text>
-        <text x="210" y="0" font-weight="900" fill="#FFD700">28</text>
+        <text x="210" y="0" font-weight="900" fill="#FFD700">0</text>
       </g>
       <g transform="translate(0, 24)">
         <text x="0" y="0" fill="#55E6FF">⏱</text>
         <text x="18" y="0" fill="#A8ADB7">Total Commits (2026):</text>
-        <text x="210" y="0" font-weight="900" fill="#F4F4F2">185</text>
+        <text x="210" y="0" font-weight="900" fill="#F4F4F2">145</text>
       </g>
       <g transform="translate(0, 48)">
         <text x="0" y="0" fill="#42FF9E">⑂</text>
         <text x="18" y="0" fill="#A8ADB7">Total PRs:</text>
-        <text x="210" y="0" font-weight="900" fill="#F4F4F2">6</text>
+        <text x="210" y="0" font-weight="900" fill="#F4F4F2">4</text>
       </g>
       <g transform="translate(0, 72)">
         <text x="0" y="0" fill="#FF3038">☉</text>
         <text x="18" y="0" fill="#A8ADB7">Total Issues:</text>
-        <text x="210" y="0" font-weight="900" fill="#F4F4F2">4</text>
+        <text x="210" y="0" font-weight="900" fill="#F4F4F2">0</text>
       </g>
       <g transform="translate(0, 96)">
         <text x="0" y="0" fill="#FFB703">▱</text>
         <text x="18" y="0" fill="#A8ADB7">Contributed to (yr):</text>
-        <text x="210" y="0" font-weight="900" fill="#F4F4F2">16</text>
+        <text x="210" y="0" font-weight="900" fill="#F4F4F2">3</text>
       </g>
     </g>
 

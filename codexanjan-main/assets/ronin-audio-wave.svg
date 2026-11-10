@@ -48,7 +48,7 @@
 
   <!-- Left Telemetry Label -->
   <g transform="translate(30, 42)" font-family="'Courier New', Consolas, monospace">
-    <text x="0" y="0" font-size="11" font-weight="700" fill="#FF3038" letter-spacing="2">SECURE CHANNEL // CODEXANJAN</text>
+    <text x="0" y="0" font-size="11" font-weight="700" fill="#FF3038" letter-spacing="2">SECURE CHANNEL // CODEXSujal</text>
     <text x="0" y="20" font-size="9" fill="#787F89" letter-spacing="1">ENCRYPTION: AES-256-GCM // SYNC: 100%</text>
   </g>
 

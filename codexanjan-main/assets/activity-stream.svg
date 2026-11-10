@@ -33,7 +33,7 @@
     <g transform="translate(0, 0)">
       <rect x="0" y="-12" width="68" height="18" rx="2" fill="#141820" stroke="#FF3038" stroke-width="1" />
       <text x="8" y="1" font-size="10" font-weight="700" fill="#FF3038">[COMMIT]</text>
-      <text x="80" y="1" fill="#F4F4F2">codexanjan/URLForge</text>
+      <text x="80" y="1" fill="#F4F4F2">codexSujal/URLForge</text>
       <text x="320" y="1" fill="#787F89">&gt; feat: optimize hash collision cache &amp; latency</text>
       <text x="650" y="1" fill="#55E6FF" font-size="10">2h ago</text>
     </g>
@@ -42,7 +42,7 @@
     <g transform="translate(0, 30)">
       <rect x="0" y="-12" width="68" height="18" rx="2" fill="#141820" stroke="#42FF9E" stroke-width="1" />
       <text x="14" y="1" font-size="10" font-weight="700" fill="#42FF9E">[PUSH]</text>
-      <text x="80" y="1" fill="#F4F4F2">codexanjan/PeriodicPortal</text>
+      <text x="80" y="1" fill="#F4F4F2">codexSujal/PeriodicPortal</text>
       <text x="320" y="1" fill="#787F89">&gt; chore: upgrade Three.js shaders &amp; orbital paths</text>
       <text x="650" y="1" fill="#55E6FF" font-size="10">5h ago</text>
     </g>
@@ -51,7 +51,7 @@
     <g transform="translate(0, 60)">
       <rect x="0" y="-12" width="68" height="18" rx="2" fill="#141820" stroke="#55E6FF" stroke-width="1" />
       <text x="8" y="1" font-size="10" font-weight="700" fill="#55E6FF">[DEPLOY]</text>
-      <text x="80" y="1" fill="#F4F4F2">codexanjan/MarkdownStudio</text>
+      <text x="80" y="1" fill="#F4F4F2">codexSujal/MarkdownStudio</text>
       <text x="320" y="1" fill="#787F89">&gt; ship: AST live synchronizer &amp; PDF engine</text>
       <text x="650" y="1" fill="#55E6FF" font-size="10">1d ago</text>
     </g>
@@ -60,14 +60,14 @@
     <g transform="translate(0, 90)">
       <rect x="0" y="-12" width="68" height="18" rx="2" fill="#141820" stroke="#F4C95D" stroke-width="1" />
       <text x="11" y="1" font-size="10" font-weight="700" fill="#F4C95D">[MERGE]</text>
-      <text x="80" y="1" fill="#F4F4F2">codexanjan/SmartCalendar</text>
+      <text x="80" y="1" fill="#F4F4F2">codexSujal/SmartCalendar</text>
       <text x="320" y="1" fill="#787F89">&gt; pr #14: temporal state sync &amp; multi-day view</text>
       <text x="650" y="1" fill="#55E6FF" font-size="10">2d ago</text>
     </g>
 
     <!-- Terminal Prompt Line -->
     <g transform="translate(0, 126)">
-      <text x="0" y="0" fill="#FF3038" font-weight="700">&gt; codexanjan@ronin-terminal ~ %</text>
+      <text x="0" y="0" fill="#FF3038" font-weight="700">&gt; codexSujal@ronin-terminal ~ %</text>
       <text x="245" y="0" fill="#A8ADB7">git status --untracked-files=no</text>
       <rect x="525" y="-11" width="8" height="14" fill="#FF3038" class="act-cur" />
     </g>

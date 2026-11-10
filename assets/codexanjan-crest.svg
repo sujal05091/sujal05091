@@ -64,7 +64,7 @@
            fill="url(#armorGrad)" stroke="#A8ADB7" stroke-width="1.5" stroke-opacity="0.4" />
 
   <!-- Geometric Elements: "A" / "S" / "<>" / Katana Slash / Terminal Circuit -->
-  <!-- Left Code Bracket "<" (Also left flank of Anjan 'A') -->
+  <!-- Left Code Bracket "<" (Also left flank of Sujal 'A') -->
   <path d="M 160 120 L 115 195 L 160 270" fill="none" stroke="url(#steelGrad)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
   <path d="M 152 140 L 126 195 L 152 250" fill="none" stroke="#55E6FF" stroke-width="2" stroke-opacity="0.7" />
 
@@ -102,6 +102,6 @@
   <line x1="285" y1="195" x2="316" y2="195" stroke="#FF3038" stroke-width="1.5" />
 
   <!-- Typography Beneath Crest -->
-  <text x="200" y="360" text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-size="12" font-weight="700" fill="#A8ADB7" letter-spacing="4">CODEXANJAN</text>
+  <text x="200" y="360" text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-size="12" font-weight="700" fill="#A8ADB7" letter-spacing="4">CODEXSujal</text>
   <text x="200" y="376" text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-size="8" font-weight="600" fill="#FF3038" letter-spacing="3">DIGITAL RONIN CREST</text>
 </svg>

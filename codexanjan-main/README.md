@@ -247,7 +247,7 @@
 
 <br/><br/>
 
-<img src="./assets/commit-radar-active.svg" width="100%" alt="Sujal S Kumar Contribution Graph - Real-time Commits and Code Cadence" />
+<img src="./assets/commit-radar-active-v4.svg" width="100%" alt="Sujal S Kumar Contribution Graph - Real-time Commits and Code Cadence" />
 
 <br/><br/>
 
@@ -263,11 +263,11 @@
 
 <br/><br/>
 
-<img src="./assets/contribution-grid.svg" width="100%" alt="Shadow Fight 52-Week Contribution Matrix - Real GitHub Cadence Arena" />
+<img src="./assets/contribution-grid.svg" width="100%" alt="Task Force 141 52-Week Combat Cadence Arena - Real GitHub Contributions &amp; Defusal HUD" />
 
 <br/><br/>
 
-<img src="./assets/shadow-fight-roster.svg" width="100%" alt="Shadow Fight Combat Roster - 8 Demon Bosses &amp; Technical Disciplines" />
+<img src="./assets/shadow-fight-roster-v4.svg" width="100%" alt="Task Force 141 Tactical Engineering Squad - 8 Special Operations Disciplines" />
 
 <br/><br/>
 
@@ -311,7 +311,7 @@
 
 <br/><br/>
 
-<img src="./assets/samurai-trophy-room.svg" width="100%" alt="Tactical Special Forces Accolades - Stars, Commits, Followers, Repos, Issues, PRs, Reviews, Experience" />
+<img src="./assets/samurai-trophy-room-v4.svg" width="100%" alt="Tactical Special Forces Accolades - Stars, Commits, Followers, Repos, Issues, PRs, Reviews, Experience" />
 
 <br/><br/>
 
@@ -323,7 +323,7 @@
 
 <br/><br/>
 
-<img src="./assets/samurai-achievements-vault.svg" width="100%" alt="Sujal S Kumar Verified Honors &amp; Certifications Vault" />
+<img src="./assets/samurai-achievements-vault-v4.svg" width="100%" alt="Sujal S Kumar Verified Honors &amp; Certifications Vault" />
 
 <br/><br/>
 
@@ -375,13 +375,13 @@
 
 <br/><br/>
 
-<img src="./assets/samurai-telemetry-grid.svg" width="100%" alt="Tactical Telemetry Grid - Metrics, Streak, and Top Languages" />
+<img src="./assets/samurai-telemetry-grid-v4.svg" width="100%" alt="Tactical Telemetry Grid - Metrics, Streak, and Top Languages" />
 
 <br/><br/>
 
 <p align="center">
   <a href="https://github.com/sujal05091" target="_blank">
-    <img src="./assets/live-github-stats.svg" width="48%" alt="Sujal S Kumar GitHub Stats Live" />
+    <img src="./assets/live-github-stats-v4.svg" width="48%" alt="Sujal S Kumar GitHub Stats Live" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/sujal05091" target="_blank">
@@ -441,7 +441,7 @@
 
 <br/><br/>
 
-<img src="./assets/terminal-contact.svg" width="100%" alt="Tactical Command Terminal Contact Interface" />
+<img src="./assets/terminal-contact-v4.svg" width="100%" alt="Tactical Command Terminal Contact Interface" />
 
 <br/><br/>
 
@@ -459,7 +459,7 @@
 <!-- MONOLITHIC TACTICAL FOOTER                                  -->
 <!-- ======================================================== -->
 
-<img src="./assets/ronin-footer.svg" width="100%" alt="Sujal S Kumar Monolithic Tech Samurai Signature Footer" />
+<img src="./assets/ronin-footer-v4.svg" width="100%" alt="Sujal S Kumar Monolithic Tech Samurai Signature Footer" />
 
 <br/><br/>
 

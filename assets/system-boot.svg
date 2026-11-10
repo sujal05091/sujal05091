@@ -84,7 +84,7 @@
 
     <!-- Line 6 -->
     <g class="boot-l6" transform="translate(0, 126)">
-      <text x="0" y="0" fill="#FF3038" font-weight="700">&gt; IDENTITY // CODEXANJAN — STATUS: ARMED &amp; DEPLOYED</text>
+      <text x="0" y="0" fill="#FF3038" font-weight="700">&gt; IDENTITY // CODEXSujal — STATUS: ARMED &amp; DEPLOYED</text>
       <rect x="520" y="-12" width="9" height="15" fill="#FF3038" class="boot-cursor" />
     </g>
   </g>

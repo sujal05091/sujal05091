@@ -36,7 +36,7 @@
   
       <rect width="1200" height="230" fill="#04070D" />
       <text x="40" y="32" fill="#00F5FF" font-size="11" font-weight="800" letter-spacing="2">DEVELOPER_TELEMETRY // SYSTEM_STATE_MONITOR</text>
-      <text x="1160" y="32" fill="#39FF88" font-size="10" font-weight="700" text-anchor="end">NODE://CODEXANJAN</text>
+      <text x="1160" y="32" fill="#39FF88" font-size="10" font-weight="700" text-anchor="end">NODE://CODEXSujal</text>
       <line x1="40" y1="42" x2="1160" y2="42" stroke="rgba(0, 245, 255, 0.25)" stroke-width="1" />
       <g transform="translate(40, 65)">
         <g transform="translate(0, 0)"><rect width="170" height="70" fill="#080D18" stroke="rgba(0, 245, 255, 0.25)" rx="2"/><text x="14" y="24" fill="#7894A6" font-size="9">BUILD MODE</text><text x="14" y="50" fill="#39FF88" font-size="13" font-weight="800">ACTIVE ●</text></g>

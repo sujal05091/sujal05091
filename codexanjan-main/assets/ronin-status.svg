@@ -56,7 +56,7 @@
     <!-- Col 1 -->
     <g transform="translate(0, 0)">
       <text x="0" y="0" font-size="10" fill="#787F89" letter-spacing="2">OPERATIVE</text>
-      <text x="0" y="20" font-size="14" font-weight="700" fill="#F4F4F2">ANJAN SHETTY</text>
+      <text x="0" y="20" font-size="14" font-weight="700" fill="#F4F4F2">Sujal S Kumar</text>
 
       <text x="0" y="48" font-size="10" fill="#787F89" letter-spacing="2">ROLE</text>
       <text x="0" y="68" font-size="13" font-weight="700" fill="#A8ADB7">FULL-STACK DEVELOPER</text>
@@ -65,7 +65,7 @@
     <!-- Col 2 -->
     <g transform="translate(260, 0)">
       <text x="0" y="0" font-size="10" fill="#787F89" letter-spacing="2">CODENAME</text>
-      <text x="0" y="20" font-size="14" font-weight="700" fill="#FF3038">CODEXANJAN</text>
+      <text x="0" y="20" font-size="14" font-weight="700" fill="#FF3038">CODEXSujal</text>
 
       <text x="0" y="48" font-size="10" fill="#787F89" letter-spacing="2">SPECIALIZATION</text>
       <text x="0" y="68" font-size="13" font-weight="700" fill="#55E6FF">AI / ML ENGINEERING</text>
