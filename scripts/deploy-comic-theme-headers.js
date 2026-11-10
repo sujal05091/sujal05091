@@ -268,18 +268,23 @@ for (const dir of targetDirs) {
 
   // 1. Save samurai-status-badges.svg
   fs.writeFileSync(path.join(dir, 'samurai-status-badges.svg'), statusBadgesSvg, 'utf8');
+  fs.writeFileSync(path.join(dir, 'samurai-status-badges-v4.svg'), statusBadgesSvg, 'utf8');
   console.log(`✓ Updated samurai-status-badges.svg in ${dir}`);
 
   // 2. Save tactical-divider.svg
   fs.writeFileSync(path.join(dir, 'tactical-divider.svg'), tacticalDividerSvg, 'utf8');
+  fs.writeFileSync(path.join(dir, 'tactical-divider-v4.svg'), tacticalDividerSvg, 'utf8');
   console.log(`✓ Updated tactical-divider.svg in ${dir}`);
 
   // 3. Save all 11 headers
   for (const cfg of headerConfigs) {
     const svg = generateSectionHeaderSvg(cfg.number, cfg.subtitle, cfg.title);
     fs.writeFileSync(path.join(dir, cfg.file), svg, 'utf8');
-    console.log(`✓ Updated ${cfg.file} in ${dir}`);
+    const v4Name = cfg.file.replace('.svg', '-v4.svg');
+    fs.writeFileSync(path.join(dir, v4Name), svg, 'utf8');
+    console.log(`✓ Updated ${cfg.file} and ${v4Name} in ${dir}`);
   }
 }
 
 console.log('Theme deployment complete.');
+

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 36" width="100%" height="36" fill="none">
+  <defs>
+    <!-- Vibrant GTA Amber Gold Gradient -->
+    <linearGradient id="divAmber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFB800" stop-opacity="0" />
+      <stop offset="40%" stop-color="#FFA000" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#FF7A00" stop-opacity="1" />
+    </linearGradient>
+
+    <!-- Vibrant CS2 Electric Cyan Gradient -->
+    <linearGradient id="divCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5D4" stop-opacity="1" />
+      <stop offset="60%" stop-color="#00BBF9" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#00F5D4" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="divGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @keyframes radarSpin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      .spin-center-reticle {
+        transform-origin: 450px 18px;
+        animation: radarSpin 12s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Left Amber Laser Line -->
+  <line x1="40" y1="18" x2="415" y2="18" stroke="url(#divAmber)" stroke-width="2.5" filter="url(#divGlow)" />
+  <line x1="40" y1="18" x2="415" y2="18" stroke="#FFE082" stroke-width="1" />
+
+  <!-- Right Cyan Laser Line -->
+  <line x1="485" y1="18" x2="860" y2="18" stroke="url(#divCyan)" stroke-width="2.5" filter="url(#divGlow)" />
+  <line x1="485" y1="18" x2="860" y2="18" stroke="#E0F7FA" stroke-width="1" />
+
+  <!-- Center Tactical Reticle -->
+  <g transform="translate(450, 18)">
+    <circle cx="0" cy="0" r="14" stroke="#252D3D" stroke-width="1.5" fill="#090C12" />
+    <circle cx="0" cy="0" r="11" stroke="#FFB800" stroke-width="1.5" stroke-dasharray="8 4" class="spin-center-reticle" />
+    <circle cx="0" cy="0" r="6" stroke="#00F5D4" stroke-width="1.5" fill="#0E1624" />
+    <circle cx="0" cy="0" r="2" fill="#FFB800" />
+
+    <!-- Crosshair Cardinal Ticks -->
+    <line x1="-19" y1="0" x2="-14" y2="0" stroke="#FFB800" stroke-width="2" />
+    <line x1="14" y1="0" x2="19" y2="0" stroke="#00F5D4" stroke-width="2" />
+    <line x1="0" y1="-19" x2="0" y2="-14" stroke="#FFB800" stroke-width="2" />
+    <line x1="0" y1="14" x2="0" y2="19" stroke="#00F5D4" stroke-width="2" />
+  </g>
+
+  <!-- Coordinates & Callout Labels -->
+  <text x="45" y="30" font-family="'Courier New', monospace" font-size="9" font-weight="700" fill="#8E95A5" letter-spacing="1.5">📍 UDUPI, IN // 13.3409° N, 74.7421° E</text>
+  <text x="855" y="30" text-anchor="end" font-family="'Courier New', monospace" font-size="9" font-weight="700" fill="#8E95A5" letter-spacing="1.5">GTA VI HEIST // CS2 DEFUSAL // TF-141</text>
+</svg>

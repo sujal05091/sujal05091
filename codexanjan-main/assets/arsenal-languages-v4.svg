@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 966 32" width="100%" height="32" fill="none">
+  <g font-family="system-ui, -apple-system, 'SF Mono', 'Courier New', monospace" font-size="11" font-weight="900" letter-spacing="0.8">
+
+    <!-- Python -->
+    <g transform="translate(0, 1)">
+      <!-- Left Tactical Icon Slot -->
+      <rect x="0" y="0" width="32" height="30" rx="3" fill="#090C14" stroke="#1D2434" stroke-width="1.2" />
+      <text x="16" y="20" text-anchor="middle" fill="#3776AB" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900">PY</text>
+      
+      <!-- Right Tech Badge Card -->
+      <rect x="34" y="0" width="77" height="30" rx="3" fill="#0C101A" stroke="#FF6B35" stroke-width="1.2" stroke-opacity="0.75" />
+      <!-- Tactical Corner Rarity Notch -->
+      <polygon points="34,0 42,0 34,8" fill="#FF6B35" />
+      <!-- Subtle internal separator line -->
+      <line x1="35" y1="1" x2="35" y2="29" stroke="#FF6B35" stroke-width="2" stroke-opacity="0.8" />
+      <!-- Item Name Text -->
+      <text x="72.5" y="19" text-anchor="middle" fill="#F8FAFC" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="800" letter-spacing="1">PYTHON</text>
+    </g>
+    <!-- Java -->
+    <g transform="translate(121, 1)">
+      <!-- Left Tactical Icon Slot -->
+      <rect x="0" y="0" width="32" height="30" rx="3" fill="#090C14" stroke="#1D2434" stroke-width="1.2" />
+      <text x="16" y="20" text-anchor="middle" fill="#FF5722" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900">JV</text>
+      
+      <!-- Right Tech Badge Card -->
+      <rect x="34" y="0" width="60" height="30" rx="3" fill="#0C101A" stroke="#FF6B35" stroke-width="1.2" stroke-opacity="0.75" />
+      <!-- Tactical Corner Rarity Notch -->
+      <polygon points="34,0 42,0 34,8" fill="#FF6B35" />
+      <!-- Subtle internal separator line -->
+      <line x1="35" y1="1" x2="35" y2="29" stroke="#FF6B35" stroke-width="2" stroke-opacity="0.8" />
+      <!-- Item Name Text -->
+      <text x="64" y="19" text-anchor="middle" fill="#F8FAFC" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="800" letter-spacing="1">JAVA</text>
+    </g>
+    <!-- C -->
+    <g transform="translate(225, 1)">
+      <!-- Left Tactical Icon Slot -->
+      <rect x="0" y="0" width="32" height="30" rx="3" fill="#090C14" stroke="#1D2434" stroke-width="1.2" />
+      <text x="16" y="20" text-anchor="middle" fill="#659AD2" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="900">C</text>
+      
+      <!-- Right Tech Badge Card -->
+      <rect x="34" y="0" width="54" height="30" rx="3" fill="#0C101A" stroke="#FF6B35" stroke-width="1.2" stroke-opacity="0.75" />
+      <!-- Tactical Corner Rarity Notch -->
+      <polygon points="34,0 42,0 34,8" fill="#FF6B35" />
+      <!-- Subtle internal separator line -->
+      <line x1="35" y1="1" x2="35" y2="29" stroke="#FF6B35" stroke-width="2" stroke-opacity="0.8" />
+      <!-- Item Name Text -->
+      <text x="61" y="19" text-anchor="middle" fill="#F8FAFC" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="800" letter-spacing="1">C</text>
+    </g>
+    <!-- Kotlin -->
+    <g transform="translate(323, 1)">
+      <!-- Left Tactical Icon Slot -->
+      <rect x="0" y="0" width="32" height="30" rx="3" fill="#090C14" stroke="#1D2434" stroke-width="1.2" />
+      <text x="16" y="20" text-anchor="middle" fill="#7F52FF" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900">KT</text>
+      
+      <!-- Right Tech Badge Card -->
+      <rect x="34" y="0" width="77" height="30" rx="3" fill="#0C101A" stroke="#FF6B35" stroke-width="1.2" stroke-opacity="0.75" />
+      <!-- Tactical Corner Rarity Notch -->
+      <polygon points="34,0 42,0 34,8" fill="#FF6B35" />
+      <!-- Subtle internal separator line -->
+      <line x1="35" y1="1" x2="35" y2="29" stroke="#FF6B35" stroke-width="2" stroke-opacity="0.8" />
+      <!-- Item Name Text -->
+      <text x="72.5" y="19" text-anchor="middle" fill="#F8FAFC" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="800" letter-spacing="1">KOTLIN</text>
+    </g>
+    <!-- Dart -->
+    <g transform="translate(444, 1)">
+      <!-- Left Tactical Icon Slot -->
+      <rect x="0" y="0" width="32" height="30" rx="3" fill="#090C14" stroke="#1D2434" stroke-width="1.2" />
+      <text x="16" y="20" text-anchor="middle" fill="#0175C2" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900">DT</text>
+      
+      <!-- Right Tech Badge Card -->
+      <rect x="34" y="0" width="60" height="30" rx="3" fill="#0C101A" stroke="#FF6B35" stroke-width="1.2" stroke-opacity="0.75" />
+      <!-- Tactical Corner Rarity Notch -->
+      <polygon points="34,0 42,0 34,8" fill="#FF6B35" />
+      <!-- Subtle internal separator line -->
+      <line x1="35" y1="1" x2="35" y2="29" stroke="#FF6B35" stroke-width="2" stroke-opacity="0.8" />
+      <!-- Item Name Text -->
+      <text x="64" y="19" text-anchor="middle" fill="#F8FAFC" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="800" letter-spacing="1">DART</text>
+    </g>
+    <!-- JavaScript -->
+    <g transform="translate(548, 1)">
+      <!-- Left Tactical Icon Slot -->
+      <rect x="0" y="0" width="32" height="30" rx="3" fill="#090C14" stroke="#1D2434" stroke-width="1.2" />
+      <text x="16" y="20" text-anchor="middle" fill="#FFD600" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900">JS</text>
+      
+      <!-- Right Tech Badge Card -->
+      <rect x="34" y="0" width="111" height="30" rx="3" fill="#0C101A" stroke="#FF6B35" stroke-width="1.2" stroke-opacity="0.75" />
+      <!-- Tactical Corner Rarity Notch -->
+      <polygon points="34,0 42,0 34,8" fill="#FF6B35" />
+      <!-- Subtle internal separator line -->
+      <line x1="35" y1="1" x2="35" y2="29" stroke="#FF6B35" stroke-width="2" stroke-opacity="0.8" />
+      <!-- Item Name Text -->
+      <text x="89.5" y="19" text-anchor="middle" fill="#F8FAFC" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="800" letter-spacing="1">JAVASCRIPT</text>
+    </g>
+    <!-- TypeScript -->
+    <g transform="translate(703, 1)">
+      <!-- Left Tactical Icon Slot -->
+      <rect x="0" y="0" width="32" height="30" rx="3" fill="#090C14" stroke="#1D2434" stroke-width="1.2" />
+      <text x="16" y="20" text-anchor="middle" fill="#3178C6" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900">TS</text>
+      
+      <!-- Right Tech Badge Card -->
+      <rect x="34" y="0" width="111" height="30" rx="3" fill="#0C101A" stroke="#FF6B35" stroke-width="1.2" stroke-opacity="0.75" />
+      <!-- Tactical Corner Rarity Notch -->
+      <polygon points="34,0 42,0 34,8" fill="#FF6B35" />
+      <!-- Subtle internal separator line -->
+      <line x1="35" y1="1" x2="35" y2="29" stroke="#FF6B35" stroke-width="2" stroke-opacity="0.8" />
+      <!-- Item Name Text -->
+      <text x="89.5" y="19" text-anchor="middle" fill="#F8FAFC" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="800" letter-spacing="1">TYPESCRIPT</text>
+    </g>
+    <!-- SQL -->
+    <g transform="translate(858, 1)">
+      <!-- Left Tactical Icon Slot -->
+      <rect x="0" y="0" width="32" height="30" rx="3" fill="#090C14" stroke="#1D2434" stroke-width="1.2" />
+      <text x="16" y="20" text-anchor="middle" fill="#4479A1" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="900">SQL</text>
+      
+      <!-- Right Tech Badge Card -->
+      <rect x="34" y="0" width="54" height="30" rx="3" fill="#0C101A" stroke="#FF6B35" stroke-width="1.2" stroke-opacity="0.75" />
+      <!-- Tactical Corner Rarity Notch -->
+      <polygon points="34,0 42,0 34,8" fill="#FF6B35" />
+      <!-- Subtle internal separator line -->
+      <line x1="35" y1="1" x2="35" y2="29" stroke="#FF6B35" stroke-width="2" stroke-opacity="0.8" />
+      <!-- Item Name Text -->
+      <text x="61" y="19" text-anchor="middle" fill="#F8FAFC" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="800" letter-spacing="1">SQL</text>
+    </g>
+  </g>
+</svg>

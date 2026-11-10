@@ -18,7 +18,7 @@
 
 <br/><br/>
 
-<img src="./assets/samurai-status-badges.svg" width="100%" alt="Tactical Identity &amp; Deployment Status Badges" />
+<img src="./assets/samurai-status-badges-v4.svg" width="100%" alt="Tactical Identity &amp; Deployment Status Badges" />
 
 <br/><br/>
 
@@ -30,7 +30,7 @@
 
 <br/><br/>
 
-<img src="./assets/tactical-divider.svg" width="100%" alt="Tactical HUD Divider" />
+<img src="./assets/tactical-divider-v4.svg" width="100%" alt="Tactical HUD Divider" />
 
 <br/><br/>
 
@@ -38,7 +38,7 @@
 <!-- 01 // OPERATIVE DOSSIER // TASK FORCE 141                                    -->
 <!-- ======================================================== -->
 
-<img src="./assets/header-profile.svg" width="100%" alt="Section 01 - Operative Dossier Intel" />
+<img src="./assets/header-profile-v4.svg" width="100%" alt="Section 01 - Operative Dossier Intel" />
 
 <br/><br/>
 
@@ -54,7 +54,7 @@
 
 <div align="center">
 
-<img src="./assets/tactical-divider.svg" width="100%" alt="Tactical HUD Divider" />
+<img src="./assets/tactical-divider-v4.svg" width="100%" alt="Tactical HUD Divider" />
 
 <br/><br/>
 
@@ -62,59 +62,59 @@
 <!-- 02 // TECH ARSENAL                                       -->
 <!-- ======================================================== -->
 
-<img src="./assets/header-arsenal.svg" width="100%" alt="Section 02 - Developer Arsenal Weapons of Code" />
+<img src="./assets/header-arsenal-v4.svg" width="100%" alt="Section 02 - Developer Arsenal Weapons of Code" />
 
 </div>
 
 <p align="left"><em>A curated inventory of the languages, frameworks, and tools deployed across missions:</em></p>
 
-### Programming Languages
+### ⚡ Programming Languages `[TACTICAL // HIGH-VELOCITY]`
 
 <p align="left">
-  <img src="./assets/arsenal-languages-v3.svg" width="100%" alt="Languages: Python, Java, C, Kotlin, Dart, JavaScript, TypeScript, SQL" />
+  <img src="./assets/arsenal-languages-v4.svg" width="100%" alt="Languages: Python, Java, C, Kotlin, Dart, JavaScript, TypeScript, SQL" />
 </p>
 
-### AI & Machine Learning
+### 🧠 AI & Machine Learning `[COVERT // LEGENDARY TIER]`
 
 <p align="left">
-  <img src="./assets/arsenal-frameworks-v3.svg" width="100%" alt="AI &amp; ML: TensorFlow, PyTorch, Scikit-Learn, OpenCV, MediaPipe, Keras" />
+  <img src="./assets/arsenal-frameworks-v4.svg" width="100%" alt="AI &amp; ML: TensorFlow, PyTorch, Scikit-Learn, OpenCV, MediaPipe, Keras" />
 </p>
 
-### Frontend Engineering
+### 🌐 Frontend Engineering `[MIL-SPEC // CS2 CYBER]`
 
 <p align="left">
-  <img src="./assets/arsenal-frontend-v3.svg" width="100%" alt="Frontend: React, Next.js, Vite, HTML5, CSS3, Tailwind CSS" />
+  <img src="./assets/arsenal-frontend-v4.svg" width="100%" alt="Frontend: React, Next.js, Vite, HTML5, CSS3, Tailwind CSS" />
 </p>
 
-### Backend & APIs
+### 🔌 Backend & APIs `[SPECIAL OPS // ULTRAVIOLET]`
 
 <p align="left">
-  <img src="./assets/arsenal-backend-v3.svg" width="100%" alt="Backend &amp; APIs: FastAPI, Flask, REST APIs, Node.js, Express, Spring Boot" />
+  <img src="./assets/arsenal-backend-v4.svg" width="100%" alt="Backend &amp; APIs: FastAPI, Flask, REST APIs, Node.js, Express, Spring Boot" />
 </p>
 
-### Mobile Engineering
+### 📱 Mobile Engineering `[CLASSIFIED // EMERALD OPS]`
 
 <p align="left">
-  <img src="./assets/arsenal-mobile-v3.svg" width="100%" alt="Mobile Engineering: Flutter, Android Studio, Kotlin, Jetpack Compose, CameraX, Firebase" />
+  <img src="./assets/arsenal-mobile-v4.svg" width="100%" alt="Mobile Engineering: Flutter, Android Studio, Kotlin, Jetpack Compose, CameraX, Firebase" />
 </p>
 
-### Databases, Cloud & Vector Stores
+### 🗄️ Databases, Cloud & Vector Stores `[VECTOR RADAR // SAPPHIRE]`
 
 <p align="left">
-  <img src="./assets/arsenal-databases-v3.svg" width="100%" alt="Databases, Cloud &amp; Vector: PostgreSQL, MongoDB, Supabase, Firebase, AWS S3, Cloud Run, ChromaDB" />
+  <img src="./assets/arsenal-databases-v4.svg" width="100%" alt="Databases, Cloud &amp; Vector: PostgreSQL, MongoDB, Supabase, Firebase, AWS S3, Cloud Run, ChromaDB" />
 </p>
 
-### Tools & DevOps
+### 🛠️ Tools & DevOps `[HEIST GEAR // MIL-SPEC TITANIUM]`
 
 <p align="left">
-  <img src="./assets/arsenal-tools-v3.svg" width="100%" alt="Tools &amp; DevOps: Git, GitHub, Docker, Postman, Linux, Figma, VS Code" />
+  <img src="./assets/arsenal-tools-v4.svg" width="100%" alt="Tools &amp; DevOps: Git, GitHub, Docker, Postman, Linux, Figma, VS Code" />
 </p>
 
 <div align="center">
 
 <br/><br/>
 
-<img src="./assets/tactical-divider.svg" width="100%" alt="Tactical HUD Divider" />
+<img src="./assets/tactical-divider-v4.svg" width="100%" alt="Tactical HUD Divider" />
 
 <br/><br/>
 
@@ -122,7 +122,7 @@
 <!-- 03 // HEIST ARCHIVES // MISSION DATABASE                 -->
 <!-- ======================================================== -->
 
-<img src="./assets/header-project-database.svg" width="100%" alt="Section 03 - Heist Archives // Mission Database" />
+<img src="./assets/header-project-database-v4.svg" width="100%" alt="Section 03 - Heist Archives // Mission Database" />
 
 </div>
 
@@ -235,7 +235,7 @@
 
 <div align="center">
 
-<img src="./assets/tactical-divider.svg" width="100%" alt="Tactical HUD Divider" />
+<img src="./assets/tactical-divider-v4.svg" width="100%" alt="Tactical HUD Divider" />
 
 <br/><br/>
 
@@ -243,7 +243,7 @@
 <!-- 04 // COMMIT RADAR // CODE CADENCE                       -->
 <!-- ======================================================== -->
 
-<img src="./assets/header-commit-radar.svg" width="100%" alt="Section 04 - Commit Radar // Code Cadence" />
+<img src="./assets/header-commit-radar-v4.svg" width="100%" alt="Section 04 - Commit Radar // Code Cadence" />
 
 <br/><br/>
 
@@ -251,7 +251,7 @@
 
 <br/><br/>
 
-<img src="./assets/tactical-divider.svg" width="100%" alt="Tactical HUD Divider" />
+<img src="./assets/tactical-divider-v4.svg" width="100%" alt="Tactical HUD Divider" />
 
 <br/><br/>
 
@@ -259,7 +259,7 @@
 <!-- 05 // COMBAT PATROL // 52-WEEK ACTIVITY               -->
 <!-- ======================================================== -->
 
-<img src="./assets/header-contributions.svg" width="100%" alt="Section 05 - Combat Patrol // 52-Week Activity" />
+<img src="./assets/header-contributions-v4.svg" width="100%" alt="Section 05 - Combat Patrol // 52-Week Activity" />
 
 <br/><br/>
 
@@ -271,7 +271,7 @@
 
 <br/><br/>
 
-<img src="./assets/tactical-divider.svg" width="100%" alt="Tactical HUD Divider" />
+<img src="./assets/tactical-divider-v4.svg" width="100%" alt="Tactical HUD Divider" />
 
 <br/><br/>
 
@@ -279,7 +279,7 @@
 <!-- 06 // 2026 MISSION DIRECTIVES // ROADMAP                 -->
 <!-- ======================================================== -->
 
-<img src="./assets/header-roadmap.svg" width="100%" alt="Section 06 - 2026 Mission Directives // Roadmap" />
+<img src="./assets/header-roadmap-v4.svg" width="100%" alt="Section 06 - 2026 Mission Directives // Roadmap" />
 
 </div>
 
@@ -299,7 +299,7 @@
 
 <div align="center">
 
-<img src="./assets/tactical-divider.svg" width="100%" alt="Tactical HUD Divider" />
+<img src="./assets/tactical-divider-v4.svg" width="100%" alt="Tactical HUD Divider" />
 
 <br/><br/>
 
@@ -307,7 +307,7 @@
 <!-- 07 // TROPHY ROOM // SPECIAL FORCES ACCOLADES                   -->
 <!-- ======================================================== -->
 
-<img src="./assets/header-trophy-room.svg" width="100%" alt="Section 07 - Trophy Room // Special Forces Accolades" />
+<img src="./assets/header-trophy-room-v4.svg" width="100%" alt="Section 07 - Trophy Room // Special Forces Accolades" />
 
 <br/><br/>
 
@@ -319,7 +319,7 @@
 <!-- ACHIEVEMENTS & CERTIFICATIONS VAULT                      -->
 <!-- ======================================================== -->
 
-<img src="./assets/header-badges.svg" width="100%" alt="Achievements Badges - Verified Credentials" />
+<img src="./assets/header-badges-v4.svg" width="100%" alt="Achievements Badges - Verified Credentials" />
 
 <br/><br/>
 
@@ -349,7 +349,7 @@
 
 <br/><br/>
 
-<img src="./assets/tactical-divider.svg" width="100%" alt="Tactical HUD Divider" />
+<img src="./assets/tactical-divider-v4.svg" width="100%" alt="Tactical HUD Divider" />
 
 <br/><br/>
 
@@ -357,7 +357,7 @@
 <!-- 08 // WARZONE TELEMETRY // MAINFRAME METRICS               -->
 <!-- ======================================================== -->
 
-<img src="./assets/header-telemetry.svg" width="100%" alt="Section 08 - Ronin Telemetry // Mainframe Metrics" />
+<img src="./assets/header-telemetry-v4.svg" width="100%" alt="Section 08 - Ronin Telemetry // Mainframe Metrics" />
 
 </div>
 
@@ -391,7 +391,7 @@
 
 <br/><br/>
 
-<img src="./assets/tactical-divider.svg" width="100%" alt="Tactical HUD Divider" />
+<img src="./assets/tactical-divider-v4.svg" width="100%" alt="Tactical HUD Divider" />
 
 <br/><br/>
 
@@ -399,7 +399,7 @@
 <!-- 09 // SECURE COMMS // TASK FORCE CHANNELS                     -->
 <!-- ======================================================== -->
 
-<img src="./assets/header-connect.svg" width="100%" alt="Section 09 - Ronin Comms Secure Channels" />
+<img src="./assets/header-connect-v4.svg" width="100%" alt="Section 09 - Ronin Comms Secure Channels" />
 
 </div>
 
@@ -429,7 +429,7 @@
 
 <br/><br/>
 
-<img src="./assets/tactical-divider.svg" width="100%" alt="Tactical HUD Divider" />
+<img src="./assets/tactical-divider-v4.svg" width="100%" alt="Tactical HUD Divider" />
 
 <br/><br/>
 
@@ -437,7 +437,7 @@
 <!-- 10 // COMMAND TERMINAL // TACTICAL SHELL                    -->
 <!-- ======================================================== -->
 
-<img src="./assets/header-terminal.svg" width="100%" alt="Ronin Terminal Command Shell Header" />
+<img src="./assets/header-terminal-v4.svg" width="100%" alt="Ronin Terminal Command Shell Header" />
 
 <br/><br/>
 

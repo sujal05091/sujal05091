@@ -1,54 +1,95 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 32" fill="none">
-
-  <defs>
-    <linearGradient id="pillGradRed" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FF3038" />
-      <stop offset="100%" stop-color="#FF474E" />
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 32" width="100%" height="32" fill="none">
   <g font-family="system-ui, -apple-system, 'SF Mono', 'Courier New', monospace" font-size="11" font-weight="900" letter-spacing="0.8">
 
     <!-- TensorFlow -->
     <g transform="translate(0, 1)">
-      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
-      <text x="15" y="20" text-anchor="middle" fill="#FF6F00" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900">TF</text>
-      <rect x="33" y="0" width="109" height="30" rx="3" fill="url(#pillGradRed)" />
-      <text x="87.5" y="19" text-anchor="middle" fill="#050608">TENSORFLOW</text>
+      <!-- Left Tactical Icon Slot -->
+      <rect x="0" y="0" width="32" height="30" rx="3" fill="#090C14" stroke="#1D2434" stroke-width="1.2" />
+      <text x="16" y="20" text-anchor="middle" fill="#FF6F00" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900">TF</text>
+      
+      <!-- Right Tech Badge Card -->
+      <rect x="34" y="0" width="111" height="30" rx="3" fill="#0C101A" stroke="#FFB800" stroke-width="1.2" stroke-opacity="0.75" />
+      <!-- Tactical Corner Rarity Notch -->
+      <polygon points="34,0 42,0 34,8" fill="#FFB800" />
+      <!-- Subtle internal separator line -->
+      <line x1="35" y1="1" x2="35" y2="29" stroke="#FFB800" stroke-width="2" stroke-opacity="0.8" />
+      <!-- Item Name Text -->
+      <text x="89.5" y="19" text-anchor="middle" fill="#F8FAFC" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="800" letter-spacing="1">TENSORFLOW</text>
     </g>
     <!-- PyTorch -->
-    <g transform="translate(153, 1)">
-      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
-      <text x="15" y="20" text-anchor="middle" fill="#EE4C2C" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900">PT</text>
-      <rect x="33" y="0" width="83.5" height="30" rx="3" fill="url(#pillGradRed)" />
-      <text x="74.75" y="19" text-anchor="middle" fill="#050608">PYTORCH</text>
+    <g transform="translate(155, 1)">
+      <!-- Left Tactical Icon Slot -->
+      <rect x="0" y="0" width="32" height="30" rx="3" fill="#090C14" stroke="#1D2434" stroke-width="1.2" />
+      <text x="16" y="20" text-anchor="middle" fill="#EE4C2C" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900">PT</text>
+      
+      <!-- Right Tech Badge Card -->
+      <rect x="34" y="0" width="85.5" height="30" rx="3" fill="#0C101A" stroke="#FFB800" stroke-width="1.2" stroke-opacity="0.75" />
+      <!-- Tactical Corner Rarity Notch -->
+      <polygon points="34,0 42,0 34,8" fill="#FFB800" />
+      <!-- Subtle internal separator line -->
+      <line x1="35" y1="1" x2="35" y2="29" stroke="#FFB800" stroke-width="2" stroke-opacity="0.8" />
+      <!-- Item Name Text -->
+      <text x="76.75" y="19" text-anchor="middle" fill="#F8FAFC" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="800" letter-spacing="1">PYTORCH</text>
     </g>
     <!-- Scikit-Learn -->
-    <g transform="translate(280.5, 1)">
-      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
-      <text x="15" y="20" text-anchor="middle" fill="#F7931E" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900">SK</text>
-      <rect x="33" y="0" width="126" height="30" rx="3" fill="url(#pillGradRed)" />
-      <text x="96" y="19" text-anchor="middle" fill="#050608">SCIKIT-LEARN</text>
+    <g transform="translate(284.5, 1)">
+      <!-- Left Tactical Icon Slot -->
+      <rect x="0" y="0" width="32" height="30" rx="3" fill="#090C14" stroke="#1D2434" stroke-width="1.2" />
+      <text x="16" y="20" text-anchor="middle" fill="#F7931E" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900">SK</text>
+      
+      <!-- Right Tech Badge Card -->
+      <rect x="34" y="0" width="128" height="30" rx="3" fill="#0C101A" stroke="#FFB800" stroke-width="1.2" stroke-opacity="0.75" />
+      <!-- Tactical Corner Rarity Notch -->
+      <polygon points="34,0 42,0 34,8" fill="#FFB800" />
+      <!-- Subtle internal separator line -->
+      <line x1="35" y1="1" x2="35" y2="29" stroke="#FFB800" stroke-width="2" stroke-opacity="0.8" />
+      <!-- Item Name Text -->
+      <text x="98" y="19" text-anchor="middle" fill="#F8FAFC" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="800" letter-spacing="1">SCIKIT-LEARN</text>
     </g>
     <!-- OpenCV -->
-    <g transform="translate(450.5, 1)">
-      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
-      <text x="15" y="20" text-anchor="middle" fill="#5C3EE8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900">CV</text>
-      <rect x="33" y="0" width="75" height="30" rx="3" fill="url(#pillGradRed)" />
-      <text x="70.5" y="19" text-anchor="middle" fill="#050608">OPENCV</text>
+    <g transform="translate(456.5, 1)">
+      <!-- Left Tactical Icon Slot -->
+      <rect x="0" y="0" width="32" height="30" rx="3" fill="#090C14" stroke="#1D2434" stroke-width="1.2" />
+      <text x="16" y="20" text-anchor="middle" fill="#5C3EE8" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900">CV</text>
+      
+      <!-- Right Tech Badge Card -->
+      <rect x="34" y="0" width="77" height="30" rx="3" fill="#0C101A" stroke="#FFB800" stroke-width="1.2" stroke-opacity="0.75" />
+      <!-- Tactical Corner Rarity Notch -->
+      <polygon points="34,0 42,0 34,8" fill="#FFB800" />
+      <!-- Subtle internal separator line -->
+      <line x1="35" y1="1" x2="35" y2="29" stroke="#FFB800" stroke-width="2" stroke-opacity="0.8" />
+      <!-- Item Name Text -->
+      <text x="72.5" y="19" text-anchor="middle" fill="#F8FAFC" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="800" letter-spacing="1">OPENCV</text>
     </g>
     <!-- MediaPipe -->
-    <g transform="translate(569.5, 1)">
-      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
-      <text x="15" y="20" text-anchor="middle" fill="#00C853" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900">MP</text>
-      <rect x="33" y="0" width="100.5" height="30" rx="3" fill="url(#pillGradRed)" />
-      <text x="83.25" y="19" text-anchor="middle" fill="#050608">MEDIAPIPE</text>
+    <g transform="translate(577.5, 1)">
+      <!-- Left Tactical Icon Slot -->
+      <rect x="0" y="0" width="32" height="30" rx="3" fill="#090C14" stroke="#1D2434" stroke-width="1.2" />
+      <text x="16" y="20" text-anchor="middle" fill="#00C853" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="900">MP</text>
+      
+      <!-- Right Tech Badge Card -->
+      <rect x="34" y="0" width="102.5" height="30" rx="3" fill="#0C101A" stroke="#FFB800" stroke-width="1.2" stroke-opacity="0.75" />
+      <!-- Tactical Corner Rarity Notch -->
+      <polygon points="34,0 42,0 34,8" fill="#FFB800" />
+      <!-- Subtle internal separator line -->
+      <line x1="35" y1="1" x2="35" y2="29" stroke="#FFB800" stroke-width="2" stroke-opacity="0.8" />
+      <!-- Item Name Text -->
+      <text x="85.25" y="19" text-anchor="middle" fill="#F8FAFC" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="800" letter-spacing="1">MEDIAPIPE</text>
     </g>
     <!-- Keras -->
-    <g transform="translate(714, 1)">
-      <rect x="0" y="0" width="30" height="30" rx="3" fill="#0C0E14" stroke="#222834" stroke-width="1" />
-      <text x="15" y="20" text-anchor="middle" fill="#D00000" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="900">K</text>
-      <rect x="33" y="0" width="66.5" height="30" rx="3" fill="url(#pillGradRed)" />
-      <text x="66.25" y="19" text-anchor="middle" fill="#050608">KERAS</text>
+    <g transform="translate(724, 1)">
+      <!-- Left Tactical Icon Slot -->
+      <rect x="0" y="0" width="32" height="30" rx="3" fill="#090C14" stroke="#1D2434" stroke-width="1.2" />
+      <text x="16" y="20" text-anchor="middle" fill="#D00000" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="900">K</text>
+      
+      <!-- Right Tech Badge Card -->
+      <rect x="34" y="0" width="68.5" height="30" rx="3" fill="#0C101A" stroke="#FFB800" stroke-width="1.2" stroke-opacity="0.75" />
+      <!-- Tactical Corner Rarity Notch -->
+      <polygon points="34,0 42,0 34,8" fill="#FFB800" />
+      <!-- Subtle internal separator line -->
+      <line x1="35" y1="1" x2="35" y2="29" stroke="#FFB800" stroke-width="2" stroke-opacity="0.8" />
+      <!-- Item Name Text -->
+      <text x="68.25" y="19" text-anchor="middle" fill="#F8FAFC" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="10.5" font-weight="800" letter-spacing="1">KERAS</text>
     </g>
   </g>
 </svg>
