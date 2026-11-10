@@ -13,7 +13,7 @@
 <!-- ======================================================== -->
 
 <a href="https://github.com/sujal05091">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=26&pause=1000&color=FF3038&center=true&vCenter=true&width=880&lines=SUJAL+S+KUMAR+%2F%2F+TASK+FORCE+141;AI+%26+FULL-STACK+DEVELOPER;GTA+6+VICE+CITY+HEIST+ENGINEER;CS2+SITE-A+DEFUSAL+SPECIALIST;BUILD+WITH+DISCIPLINE.+DEPLOY+WITH+PURPOSE." alt="Tactical Terminal Dynamic HUD" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&amp;weight=700&amp;size=24&amp;pause=1000&amp;color=FFB800&amp;center=true&amp;vCenter=true&amp;width=880&amp;lines=SUJAL+S+KUMAR+%2F%2F+AI+%26+FULL-STACK+DEVELOPER;GTA+VI+VICE+CITY+HEIST+ENGINEER;CS2+SITE-A+DEFUSAL+SPECIALIST;TASK+FORCE+141+TACTICAL+OPERATIVE;BUILD+WITH+DISCIPLINE.+DEPLOY+WITH+PURPOSE." alt="Comic-Style Action Terminal Dynamic HUD" />
 </a>
 
 <br/><br/>
@@ -24,7 +24,7 @@
 
 <p align="center">
   <a href="https://github.com/sujal05091">
-    <img src="https://api.visitorbadge.io/api/visitors?path=sujal05091&amp;label=VISITORS&amp;labelColor=%230c0e14&amp;countColor=%23ff3038&amp;style=for-the-badge" alt="Profile Visitors" />
+    <img src="https://api.visitorbadge.io/api/visitors?path=sujal05091&amp;label=VISITORS&amp;labelColor=%230c0e14&amp;countColor=%23ffb800&amp;style=for-the-badge" alt="Profile Visitors" />
   </a>
 </p>
 
@@ -370,7 +370,7 @@
 <br/>
 
 <a href="https://github.com/sujal05091">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&amp;weight=700&amp;size=19&amp;pause=1000&amp;color=FF3038&amp;center=true&amp;vCenter=true&amp;width=750&amp;lines=%E2%9A%A1+RONIN+TELEMETRY+MAINFRAME+%7C+LIVE+METRICS;%F0%9F%94%A5+TOTAL+CONTRIBUTIONS%3A+185%2B+%7C+CURRENT+STREAK%3A+ACTIVE;%E2%9A%94%EF%B8%8F+COMMITS%3A+185%2B+%7C+REPOSITORIES%3A+37%2B+%7C+GRADE%3A+S%2B;%F0%9F%97%A1%EF%B8%8F+RONIN+CODE+ENGINE%3A+OPERATIONAL" alt="Ronin Telemetry Mainframe Live Metrics" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&amp;weight=700&amp;size=19&amp;pause=1000&amp;color=FFB800&amp;center=true&amp;vCenter=true&amp;width=750&amp;lines=%E2%9A%A1+WARZONE+TELEMETRY+MAINFRAME+%7C+LIVE+METRICS;%F0%9F%94%A5+TOTAL+CONTRIBUTIONS%3A+185%2B+%7C+CURRENT+STREAK%3A+ACTIVE;%E2%9A%94%EF%B8%8F+COMMITS%3A+185%2B+%7C+REPOSITORIES%3A+37%2B+%7C+GRADE%3A+S%2B;%F0%9F%97%A1%EF%B8%8F+RONIN+CODE+ENGINE%3A+OPERATIONAL" alt="Warzone Telemetry Mainframe Live Metrics" />
 </a>
 
 <br/><br/>
@@ -450,7 +450,7 @@
 <!-- ======================================================== -->
 
 <a href="https://github.com/sujal05091">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&amp;size=24&amp;pause=1000&amp;color=FF3038&amp;center=true&amp;vCenter=true&amp;width=880&amp;lines=BUILD+WITH+DISCIPLINE.+ENGINEER+WITH+PRECISION.;DEPLOY+WITH+PURPOSE.+SHIP+WITHOUT+FEAR.;SUJAL+S+KUMAR+%2F%2F+STANDBY" alt="Operative Creed Dynamic Telemetry" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&amp;weight=700&amp;size=24&amp;pause=1000&amp;color=FFB800&amp;center=true&amp;vCenter=true&amp;width=880&amp;lines=BUILD+WITH+DISCIPLINE.+ENGINEER+WITH+PRECISION.;DEPLOY+WITH+PURPOSE.+SHIP+WITHOUT+FEAR.;SUJAL+S+KUMAR+%2F%2F+STANDBY" alt="Operative Creed Dynamic Telemetry" />
 </a>
 
 <br/><br/>
